@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="00:00:00" />
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/baseline_circle_noti"
+        android:foreground="@drawable/baseline_circle_noti" />
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+
+
+        android:background="@drawable/round_stop_noti"
+
+/>
+
+
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/round_clear_24"
+/>
+
+</LinearLayout>

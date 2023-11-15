@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="?selectableItemBackground"
+    android:padding="24dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    >
+
+    <ImageButton
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:clickable="false"
+        android:background="@drawable/ic_circle"
+        android:src="@drawable/ic_play"
+        android:layout_marginEnd="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvFilename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="데이터베이스 10.19"/>
+
+        <TextView
+            android:id="@+id/tvMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="hkhkfdesefadsf"/>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:clickable="false"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maincolor_two">#6672FF</color>
+    <color name="maincolor_three">#3B60BC</color>
+    <color name="maincolor_four">#CED2FF</color>
+    <color name="maincolor_five">#96ADE4</color>
+    <color name="maincolor_six">#6E79FF</color>
+    <color name="maincolor_seven">#3B608C</color>
+    <color name="statusColor">#EDEDED</color>
+    <color name="strokeColor">#1E88E5</color>
+    <color name="opoqueBG">#61000000</color>
+    <color name="grayDark">#656565</color>
+    <color name="grayDarkDisabled">#8F8F8F</color>
+    <color name="colorGray">#F0F0F0</color>
+    <color name="gray">#ECECEC</color>
+    <color name="colorGrayDark">#7C7C7C</color>
+    <color name="colorText">#2B2B2B</color>
+    <color name="colorDisabled">#CFCFCF</color>
+    <color name="colorBackground">#FAFAFA</color>
+</resources>
