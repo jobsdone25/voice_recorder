@@ -10,3 +10,26 @@ A simple and user-friendly voice recording app designed for foreground recording
 - **Easy-to-Use Structure:** Keep the app structure simple and intuitive for an effortless user experience.
 - **Playback Controls:** Enjoy playback functionalities, including a speed control feature for adjusting playback speed.
 - **Additional Features:** Explore additional features to enhance the user experience.
+
+## Technologies Used
+
+- Kotlin
+- Android SDK
+- Room Database
+
+## ScreenShot
+
+![KakaoTalk_20231115_215629425_04]
+*Waveview Visualization: Visualize audio recordings for better understanding.*
+
+![KakaoTalk_20231115_215702173]
+*Foreground record: Start and stop voice recording with a single tap.*
+
+![KakaoTalk_20231115_215629425_01]
+*Playback: Easily listen to your recorded files with playback controls.*
+
+![KakaoTalk_20231115_215629425_02]
+*Save: Store your recordings for future use.*
+
+![KakaoTalk_20231115_215629425]
+*Delete, Edit: Manage your recordings by removing unnecessary files.*
